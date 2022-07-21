@@ -53,7 +53,7 @@ func main() {
 	var split string
 	flag.StringVar(&selector, "selector", ".container", "xpath selector")
 	flag.StringVar(&content, "content", "", "html text content")
-	flag.StringVar(&contentFile, "content file", "./1.html", "html text content file")
+	flag.StringVar(&contentFile, "contentFile", "./1.html", "html text content file")
 	flag.StringVar(&split, "split", "-----", "split line content of each matched selection")
 	flag.Parse()
 
